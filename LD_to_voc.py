@@ -7,7 +7,6 @@ import cv2
 import numpy as np
 
 def LDAnnotation_2_voc(folderPath,output_folder,dataname,category):
-    print(folderPath)
     Image_Path = folderPath.replace("Annotations","Images")
     for root, dirs, files in os.walk(folderPath):
         subfoldername = os.path.basename(root)
