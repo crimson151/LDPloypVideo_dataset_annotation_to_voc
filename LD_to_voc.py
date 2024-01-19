@@ -36,5 +36,5 @@ if __name__ == "__main__":
     read_path = 'LDPolypVideo/TrainValid/Annotations'
     save_path = 'LDPolypVideo/TrainValid/Annotations_xml'
 
-    # Read image
+    # process
     LDAnnotation_2_voc(read_path, save_path, dataname, category)
