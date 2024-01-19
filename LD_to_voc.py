@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# Copyright (c) SenseTime Research and its affiliates. All Rights Reserved.
-# from pascal_voc_io import PascalVocWriter
 from pascal_voc_writer import Writer
 import os
 import sys
@@ -37,9 +34,6 @@ def LDAnnotation_2_voc(folderPath,output_folder,dataname,category):
 if __name__ == "__main__":
     dataname = 'LDPolypVideo'
     category = 'polyp'
-
-    img_name = 'xxxx.jpg'
-    anno_name = 'xxxx.txt'
     read_path = 'LDPolypVideo/TrainValid/Annotations'
     save_path = 'LDPolypVideo/TrainValid/Annotations_xml'
 
